@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>One Bag One Life</title>
+  <style>
+    body { font-family: Arial; margin:0; background:#ffe5e5; }
+    header { background:red; color:white; padding:20px; text-align:center; }
+    section { padding:20px; }
+    .card { background:white; padding:15px; margin:10px; border-radius:10px; }
+    button { background:red; color:white; padding:10px; border:none; border-radius:8px; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>🩸 One Bag One Life</h1>
+  <p>এক ব্যাগ রক্ত, এক জীবন</p>
+</header>
+
+<section>
+  <h2>Blood Groups</h2>
+  <div class="card">A+</div>
+  <div class="card">B+</div>
+  <div class="card">O+</div>
+</section>
+
+<section>
+  <h2>Become Donor</h2>
+  <input placeholder="Name"><br><br>
+  <input placeholder="Phone"><br><br>
+  <button>Submit</button>
+</section>
+
+<section>
+  <h2>Emergency</h2>
+  <button>Request Blood</button>
+</section>
+
+</body>
+</html>
