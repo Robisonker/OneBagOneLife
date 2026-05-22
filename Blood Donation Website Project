@@ -27,13 +27,11 @@
       padding: 15px;
       margin: 10px 0;
       border-radius: 10px;
-      font-size: 18px;
-      font-weight: bold;
     }
 
     input {
-      width: 90%;
       padding: 10px;
+      width: 90%;
       border-radius: 8px;
       border: 1px solid #ccc;
     }
@@ -44,11 +42,6 @@
       padding: 10px 20px;
       border: none;
       border-radius: 8px;
-      cursor: pointer;
-    }
-
-    button:hover {
-      background: darkred;
     }
   </style>
 </head>
@@ -67,29 +60,26 @@
     <div class="card">B+</div>
     <div class="card">O+</div>
     <div class="card">AB+</div>
-    <div class="card">A-</div>
-    <div class="card">B-</div>
-    <div class="card">O-</div>
-    <div class="card">AB-</div>
   </section>
 
   <section>
     <h2>Become Donor</h2>
 
-    <input type="text" placeholder="Your Name"><br><br>
+    <input type="text" placeholder="Your Name">
+    <br><br>
 
-    <input type="text" placeholder="Phone Number"><br><br>
+    <input type="text" placeholder="Phone Number">
+    <br><br>
 
     <button>Submit</button>
   </section>
 
   <section>
-    <h2>Emergency Blood Request</h2>
+    <h2>Emergency</h2>
 
     <button>Request Blood</button>
   </section>
 
-  <!-- Firebase Setup -->
   <script type="module">
 
     import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
@@ -105,7 +95,7 @@
 
     const app = initializeApp(firebaseConfig);
 
-    console.log("Firebase Connected Successfully");
+    console.log("Firebase Connected");
 
   </script>
 
